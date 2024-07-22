@@ -13,7 +13,7 @@ import { FileModule } from './file/file.module';
 import { JwtModule } from '@nestjs/jwt';
 import { config as dotenvConfig } from 'dotenv';
 
-dotenvConfig({ path: '.development.env' });
+dotenvConfig({ path: '.env' });
 
 @Module({
   imports: [
